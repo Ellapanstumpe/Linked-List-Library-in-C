@@ -1,0 +1,103 @@
+\doxysection{linklist.\+c File Reference}
+\hypertarget{linklist_8c}{}\label{linklist_8c}\index{linklist.c@{linklist.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include "{}linklist.\+h"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{linklist_8c_a798e647d6cb3997057018dd7094781a6}{merge\+\_\+sorted\+\_\+lists}} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}list1, \mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}list2)
+\item 
+\Hypertarget{linklist_8c_a5e716051b14c8440070fd6dc9465a0fe}\label{linklist_8c_a5e716051b14c8440070fd6dc9465a0fe} 
+void {\bfseries add\+\_\+lists} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}list1, \mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}list2)
+\item 
+\Hypertarget{linklist_8c_a6a0f4f37bbbfc86a8d4e21596a540d89}\label{linklist_8c_a6a0f4f37bbbfc86a8d4e21596a540d89} 
+\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*} {\bfseries duplicate\+\_\+list} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{structnode}{node}})
+\item 
+\Hypertarget{linklist_8c_acb481e65c4c06fa2fa3a944fc137ae3b}\label{linklist_8c_acb481e65c4c06fa2fa3a944fc137ae3b} 
+\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*} {\bfseries delete\+\_\+list} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{structnode}{node}})
+\item 
+\Hypertarget{linklist_8c_af93765288380df0fd43ac0cc5e72cb6a}\label{linklist_8c_af93765288380df0fd43ac0cc5e72cb6a} 
+\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*} {\bfseries insert\+\_\+after} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}head, int new\+\_\+value, int after\+\_\+value)
+\item 
+\Hypertarget{linklist_8c_ad8741d2fac199ed30daca4ed88199b00}\label{linklist_8c_ad8741d2fac199ed30daca4ed88199b00} 
+void {\bfseries delete\+\_\+duplicates} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}head)
+\item 
+\Hypertarget{linklist_8c_ad59c0648a7f4d4c8c615d8a8583d438f}\label{linklist_8c_ad59c0648a7f4d4c8c615d8a8583d438f} 
+void {\bfseries sort\+\_\+list} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}head)
+\item 
+\Hypertarget{linklist_8c_af3f5ca93755ba55d3654b86b81520e25}\label{linklist_8c_af3f5ca93755ba55d3654b86b81520e25} 
+\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*} {\bfseries reverse\+\_\+list} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}head)
+\item 
+\Hypertarget{linklist_8c_aa80b041e0f8cd8dddcce9b86a9fe2894}\label{linklist_8c_aa80b041e0f8cd8dddcce9b86a9fe2894} 
+\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*} {\bfseries append\+\_\+list} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}head1, \mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}head2)
+\item 
+\Hypertarget{linklist_8c_a52a258ea1430dbad88a1e61afcc19955}\label{linklist_8c_a52a258ea1430dbad88a1e61afcc19955} 
+\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*} {\bfseries efficient\+\_\+delete\+\_\+match} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}head, int delete\+\_\+value, int \texorpdfstring{$\ast$}{*}num\+\_\+deleted)
+\item 
+\Hypertarget{linklist_8c_a38062127219018fe1292a6445965a352}\label{linklist_8c_a38062127219018fe1292a6445965a352} 
+\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*} {\bfseries delete\+\_\+all\+\_\+matches} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}head, int delete\+\_\+value, int \texorpdfstring{$\ast$}{*}num\+\_\+deleted)
+\item 
+\Hypertarget{linklist_8c_a179a558123cfec4fd7b1771fd1547ba3}\label{linklist_8c_a179a558123cfec4fd7b1771fd1547ba3} 
+bool {\bfseries found} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{structnode}{node}}, int search\+\_\+value)
+\item 
+\Hypertarget{linklist_8c_afba8d51ec19ffc417d1f6431a2beca03}\label{linklist_8c_afba8d51ec19ffc417d1f6431a2beca03} 
+\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*} {\bfseries delete\+\_\+first\+\_\+match} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}head, int delete\+\_\+value, bool \texorpdfstring{$\ast$}{*}was\+\_\+deleted)
+\item 
+\Hypertarget{linklist_8c_a64d3ec95e4c80bcc717409695b66fb7c}\label{linklist_8c_a64d3ec95e4c80bcc717409695b66fb7c} 
+void {\bfseries replace\+\_\+matches} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{structnode}{node}}, int find\+\_\+value, int replace\+\_\+value)
+\item 
+\Hypertarget{linklist_8c_aaa82d1becdb90f231c77664a5a423182}\label{linklist_8c_aaa82d1becdb90f231c77664a5a423182} 
+int {\bfseries recursive\+\_\+length} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{structnode}{node}})
+\item 
+\Hypertarget{linklist_8c_afe5895be3b9dbcb416501df58219aa8b}\label{linklist_8c_afe5895be3b9dbcb416501df58219aa8b} 
+int {\bfseries length} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}head)
+\item 
+\Hypertarget{linklist_8c_aba02d6f891167162d1e969bd6b6d9039}\label{linklist_8c_aba02d6f891167162d1e969bd6b6d9039} 
+\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*} {\bfseries delete\+Tail} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}head)
+\item 
+\Hypertarget{linklist_8c_aff9caf71d7305dc972e36202e0dea05b}\label{linklist_8c_aff9caf71d7305dc972e36202e0dea05b} 
+\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*} {\bfseries delete\+Head\+Node} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}head)
+\item 
+\Hypertarget{linklist_8c_a66ac3f78aeffb5091a66f1ec5687e8ab}\label{linklist_8c_a66ac3f78aeffb5091a66f1ec5687e8ab} 
+\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*} {\bfseries insert\+\_\+at\+\_\+tail} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}head, int new\+\_\+value)
+\item 
+\Hypertarget{linklist_8c_ace279b726753763501d59e80b9e9327d}\label{linklist_8c_ace279b726753763501d59e80b9e9327d} 
+\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*} {\bfseries insert\+\_\+at\+\_\+head} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}head, int new\+\_\+value)
+\item 
+\Hypertarget{linklist_8c_aeb7a5eb124302515db5c11a581d00478}\label{linklist_8c_aeb7a5eb124302515db5c11a581d00478} 
+void {\bfseries print\+\_\+list} (\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}head)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Linked List Library
+
+\begin{DoxyAuthor}{Author}
+Ella Stumpe 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Thursday Dec 14,2023 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{linklist_8c_a798e647d6cb3997057018dd7094781a6}\label{linklist_8c_a798e647d6cb3997057018dd7094781a6} 
+\index{linklist.c@{linklist.c}!merge\_sorted\_lists@{merge\_sorted\_lists}}
+\index{merge\_sorted\_lists@{merge\_sorted\_lists}!linklist.c@{linklist.c}}
+\doxysubsubsection{\texorpdfstring{merge\_sorted\_lists()}{merge\_sorted\_lists()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*} merge\+\_\+sorted\+\_\+lists (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}}]{list1,  }\item[{\mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}} \texorpdfstring{$\ast$}{*}}]{list2 }\end{DoxyParamCaption})}
+
+Merges two sorted lists into a single sorted list in acending order
+
+
+\begin{DoxyParams}{Parameters}
+{\em pointer} & to head of first list \\
+\hline
+{\em pointer} & to head of the second list \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+pointer to head of merged list 
+\end{DoxyReturn}

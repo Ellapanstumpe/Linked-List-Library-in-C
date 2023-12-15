@@ -1,0 +1,36 @@
+\doxysection{linklist.\+h}
+\hypertarget{linklist_8h_source}{}\label{linklist_8h_source}\mbox{\hyperlink{linklist_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <stdbool.h>}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structnode}{node}}}
+\DoxyCodeLine{00022\ \{}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{int}\ value;}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structnode}{node}}\ *\mbox{\hyperlink{structnode_aa3e8aa83f864292b5a01210f4453fcc0}{next}};}
+\DoxyCodeLine{00025\ \}\ \mbox{\hyperlink{linklist_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}};}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \textcolor{keywordtype}{void}\ print\_list(\mbox{\hyperlink{structnode}{Node}}\ *head);}
+\DoxyCodeLine{00028\ \mbox{\hyperlink{structnode}{Node}}\ *insert\_at\_head(\mbox{\hyperlink{structnode}{Node}}\ *head,\ \textcolor{keywordtype}{int}\ new\_value);}
+\DoxyCodeLine{00029\ \mbox{\hyperlink{structnode}{Node}}\ *insert\_at\_tail(\mbox{\hyperlink{structnode}{Node}}\ *head,\ \textcolor{keywordtype}{int}\ new\_value);}
+\DoxyCodeLine{00030\ \mbox{\hyperlink{structnode}{Node}}\ *deleteHeadNode(\mbox{\hyperlink{structnode}{Node}}\ *head);}
+\DoxyCodeLine{00031\ \mbox{\hyperlink{structnode}{Node}}\ *deleteTail(\mbox{\hyperlink{structnode}{Node}}\ *head);}
+\DoxyCodeLine{00032\ \textcolor{keywordtype}{int}\ length(\mbox{\hyperlink{structnode}{Node}}\ *head);}
+\DoxyCodeLine{00033\ \textcolor{keywordtype}{int}\ recursive\_length(\mbox{\hyperlink{structnode}{Node}}\ *\mbox{\hyperlink{structnode}{node}});}
+\DoxyCodeLine{00034\ \textcolor{keywordtype}{int}\ count\_matches(\mbox{\hyperlink{structnode}{Node}}\ *\mbox{\hyperlink{structnode}{node}},\ \textcolor{keywordtype}{int}\ find\_value);}
+\DoxyCodeLine{00035\ \textcolor{keywordtype}{bool}\ found(\mbox{\hyperlink{structnode}{Node}}\ *\mbox{\hyperlink{structnode}{node}},\ \textcolor{keywordtype}{int}\ search\_value);}
+\DoxyCodeLine{00036\ \textcolor{keywordtype}{void}\ replace\_matches(\mbox{\hyperlink{structnode}{Node}}\ *\mbox{\hyperlink{structnode}{node}},\ \textcolor{keywordtype}{int}\ find\_value,\ \textcolor{keywordtype}{int}\ replace\_value);}
+\DoxyCodeLine{00037\ \mbox{\hyperlink{structnode}{Node}}\ *delete\_first\_match(\mbox{\hyperlink{structnode}{Node}}\ *head,\ \textcolor{keywordtype}{int}\ delete\_value,\ \textcolor{keywordtype}{bool}\ *was\_deleted);}
+\DoxyCodeLine{00038\ \mbox{\hyperlink{structnode}{Node}}\ *delete\_all\_matches(\mbox{\hyperlink{structnode}{Node}}\ *head,\ \textcolor{keywordtype}{int}\ delete\_value,\ \textcolor{keywordtype}{int}\ *num\_deleted);}
+\DoxyCodeLine{00039\ \mbox{\hyperlink{structnode}{Node}}\ *efficient\_delete\_match(\mbox{\hyperlink{structnode}{Node}}\ *head,\ \textcolor{keywordtype}{int}\ delete\_value,\ \textcolor{keywordtype}{int}\ *num\_deleted);}
+\DoxyCodeLine{00040\ \mbox{\hyperlink{structnode}{Node}}\ *append\_list(\mbox{\hyperlink{structnode}{Node}}\ *head1,\ \mbox{\hyperlink{structnode}{Node}}\ *head2);}
+\DoxyCodeLine{00041\ \mbox{\hyperlink{structnode}{Node}}\ *reverse\_list(\mbox{\hyperlink{structnode}{Node}}\ *head);}
+\DoxyCodeLine{00042\ \textcolor{keywordtype}{void}\ sort\_list(\mbox{\hyperlink{structnode}{Node}}\ *head);}
+\DoxyCodeLine{00043\ \textcolor{keywordtype}{void}\ delete\_duplicates(\mbox{\hyperlink{structnode}{Node}}\ *head);}
+\DoxyCodeLine{00044\ \mbox{\hyperlink{structnode}{Node}}\ *insert\_after(\mbox{\hyperlink{structnode}{Node}}\ *head,\ \textcolor{keywordtype}{int}\ new\_value,\ \textcolor{keywordtype}{int}\ after\_value);}
+\DoxyCodeLine{00045\ \mbox{\hyperlink{structnode}{Node}}\ *delete\_list(\mbox{\hyperlink{structnode}{Node}}\ *\mbox{\hyperlink{structnode}{node}});}
+\DoxyCodeLine{00046\ \textcolor{keywordtype}{void}\ add\_lists(\mbox{\hyperlink{structnode}{Node}}\ *list1,\ \mbox{\hyperlink{structnode}{Node}}\ *list2);}
+\DoxyCodeLine{00047\ \mbox{\hyperlink{structnode}{Node}}\ *duplicate\_list(\mbox{\hyperlink{structnode}{Node}}\ *\mbox{\hyperlink{structnode}{node}});}
+\DoxyCodeLine{00048\ \mbox{\hyperlink{structnode}{Node}}\ *\mbox{\hyperlink{linklist_8h_a798e647d6cb3997057018dd7094781a6}{merge\_sorted\_lists}}(\mbox{\hyperlink{structnode}{Node}}\ *list1,\ \mbox{\hyperlink{structnode}{Node}}\ *list2);}
+
+\end{DoxyCode}
